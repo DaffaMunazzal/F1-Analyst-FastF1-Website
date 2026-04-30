@@ -1,0 +1,47 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #15151e; /* Warna gelap khas UI F1 */
+    color: #ffffff;
+    margin: 0;
+    padding: 20px;
+}
+
+.dashboard-header {
+    border-bottom: 2px solid #e10600; /* Garis bawah F1 Red */
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #1f1f2d;
+    padding: 20px;
+}
+
+.dashboard-title {
+    margin: 0 0 5px 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: #e10600;
+    margin-left: 100px;
+    font-family: 'F1 Display', tahoma, geneva, verdana, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.dashboard-subtitle {
+    margin: 0;
+    text-align: center;
+    color: #a0a0b5;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-left: 100px;
+}
+
+.chart-container {
+    background-color: #1f1f2d;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    text-align: center;
+}
